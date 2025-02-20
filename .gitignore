@@ -1,0 +1,10 @@
+.idea
+__pycache__/
+test_results
+weights/*
+dataset/*
+*.bat
+pretrained_weights/*
+*.png
+compare.py
+msk.py
