@@ -9,16 +9,8 @@ Official PyTorch implementation of our paper (https://arxiv.org/abs/2407.19271)
 * torchvision >= 0.4.0
 
 ## Prepare Dataset 
-1. Download [GuanDao dataset](https://pan.baidu.com/s/1JdcUoKDe7Cu_ufwcnTPxIA) password:ak1q
-1. Place the datasets in this structure:
-    ```
-    CUFED
-    ├── train
-    │   ├── input
-    │   └── ref 
-    └── test
-        └── CUFED5  
-    ```
+1. Download [GuanDao dataset](https://pan.baidu.com/s/1xiqy_0nZTvyM7MolYSaOug) password:kqfu
+1. Place the GuanDao under dataset/
 ## Get Started
 1. Clone this repo
     ```
@@ -28,10 +20,8 @@ Official PyTorch implementation of our paper (https://arxiv.org/abs/2407.19271)
 1. Download the dataset. Modify the argument `--data_root` in `test.py` and `train.py` according to your data path.
 ### Evaluation
 
-1. Run test.sh. See more details in test.sh (if you are using cpu, please add `--gpu_ids -1` in the command)
-    ```
-    sh test.sh
-    ```
+1. Download the [pretrained weights](https://pan.baidu.com/s/1zixwOyIQVx5ggAaX4uNTGQ) password:dq2r and place *.pth under pretrained_weights/
+
 1. The testing results are in the `test_results/` folder
 
 ### Training
